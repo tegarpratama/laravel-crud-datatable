@@ -14,13 +14,14 @@
 
 4. Copy .env.example file to .env on the root folder 
    ```
-   cp .env.example .env)
+   cp .env.example .env
    ```
 
 5. Create your database with name same with value of DB_DATABASE in .env file
 
-6. Run php artisan key:generate
-
-7. Run php artisan migrate
-
-8. Run php artisan serve
+6. Run 
+    ```
+    php artisan key:generate
+    php artisan migrate
+    php artisan serve
+    ```
